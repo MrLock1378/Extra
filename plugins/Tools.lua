@@ -1,5 +1,5 @@
 --Begin Tools.lua :)
-local SUDO = 304107094 -- put Your ID here! <===
+local SUDO = 374734484 -- put Your ID here! <===
 local function index_function(user_id)
   for k,v in pairs(_config.admins) do
     if user_id == v[1] then
@@ -42,7 +42,7 @@ local sudo_users = _config.sudo_users
   if not lang then
  text = "*List of sudo users :*\n"
    else
- text = "_لیست سودو های ربات :_\n"
+ text = "_لیست سودو های ربات :) :_\n"
   end
 for i=1,#sudo_users do
     text = text..i.." - "..sudo_users[i].."\n"
@@ -57,7 +57,7 @@ local sudo_users = _config.sudo_users
   if not lang then
  text = '*List of bot admins :*\n'
    else
- text = "_لیست ادمین های ربات :_\n"
+ text = "_ :)لیست ادمین های ربات :_\n"
   end
 		  	local compare = text
 		  	local i = 1
@@ -69,7 +69,7 @@ local sudo_users = _config.sudo_users
    if not lang then
 		  		text = '_No_ *admins* _available_'
       else
-		  		text = '_ادمینی برای ربات تعیین نشده_'
+		  		text = '_ادمینی برای ربات تعیین نشده :)_'
            end
 		  	end
 		  	return text
