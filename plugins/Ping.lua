@@ -1,5 +1,5 @@
 ﻿local datebase = {
-   "_Pong_",
+   "PONG...ONLIN :)",
   }
 local function run(msg, matches) 
 return datebase[math.random(#datebase)]
